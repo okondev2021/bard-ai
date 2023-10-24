@@ -12,13 +12,10 @@
 
 // import Bard from "../node_modules/bard-ai/index.js";
 
-// import fetch from "../node_modules/node-fetch/src/index.js";
+import fetch from "../node_modules/node-fetch/src/index.js";
 
-// import Bard from "../node_modules/bard-ai/index.js";
+import Bard from "../node_modules/bard-ai/index.js";
 
-import fetch from "node-fetch";
-
-import Bard from "bard-ai";
 
 let myBard = new Bard("bAjOmqg_sqEJjQqNc3v38v5ddOkt8CB7lCGqXQhUQ4fEQoWGDt8IpS7xXrXitf96Nuk0Dg.", {
     fetch: fetch
